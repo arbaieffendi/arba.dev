@@ -20,7 +20,7 @@ const IndexPage = () => (
           <span style={{fontSize: 2 + 'em'}}>Arba'i Effendi</span> <br/>
           <span style={{fontSize: 1 + 'em', color:`black`}}>A Software Engineer</span>
         </h1>
-          <span style={{fontSize: 0.75 + 'em', color:`black`}}>Do you know ?</span> <br/>
+          <span style={{fontSize: 0.75 + 'em', color:`dakgray`}}>Do you know ?</span> <br/>
           <span><q>How you spend the first 30 minutes of your day, determine the quality of the next 23 and a half of hours</q> - Gamal Albinsaid <br/><br/></span>
         <div>
         {/* <ThemeToggler>
@@ -67,13 +67,13 @@ const IndexPage = () => (
             <Link style={{color: 'teal', fontSize: `2em`}} to="#contact-me"><FontAwesomeIcon icon={faChevronCircleDown} /></Link>
           </div>
       </section>
-      <section id="contact-me" style={{marginTop: `1.45rem`}}>
+      <section id="contact-me">
         <div style={{ maxWidth: `960px`, marginBottom: `1.45rem`, marginTop:`1.45rem`}}>
             <h1>
               <span style={{fontSize: 1 + 'em'}}>Get in touch</span> <br/>
             </h1>
             <div>
-              <p>Let's talk or meet in the real world</p>
+              <p>Need to digitize your idea ? Let's talk </p>
               <span style={{fontSize: 3 + 'em'}}><a href="mailto:arbaieffendi@gmail.com"><FontAwesomeIcon icon={faAt} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@arba"><FontAwesomeIcon icon={faMedium} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://github.com/arbaieffendi"><FontAwesomeIcon icon={faGithub} /></a> </span>
@@ -82,7 +82,7 @@ const IndexPage = () => (
             </div>
         </div>
         <div style={{textAlign: 'center', position: `absolute`, right: 0, bottom: 0}}>
-          <Link style={{color: 'teal', fontSize: `2em`}} to="#layout"><FontAwesomeIcon icon={faChevronCircleUp} /></Link>
+          <Link style={{color: `teal`, fontSize: `2em`}} to="#layout"><FontAwesomeIcon icon={faChevronCircleUp} /></Link>
         </div>
       </section>
   </Layout>

@@ -663,3 +663,6 @@ span {
 span a {
   color: teal;
 }
+span a :hover {
+  color : rgb(136, 88, 0);
+}
