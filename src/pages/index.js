@@ -20,7 +20,7 @@ const IndexPage = () => (
           <span style={{fontSize: '2em'}}>Arba'i Effendi</span> <br/>
           <span style={{fontSize: '1em', color:`black`}}>A Software Engineer</span>
         </h1>
-          <span style={{fontSize: '0.75em', color:`darkgray`}}>Do you know ?</span> <br/>
+          <span style={{fontSize: '0.75em', color:`darkgray`}}>Do you know?</span> <br/>
           <span><q>How you spend the first 30 minutes of your day, determine the quality of the next 23 and a half of hours</q> - Gamal Albinsaid <br/><br/></span>
         <div>
         {/* <ThemeToggler>
@@ -46,9 +46,9 @@ const IndexPage = () => (
               <span style={{fontSize: 1 + 'em'}}>About Me</span> <br/>
             </h1>
             <p>
-            Welcome ! Let's get acquainted. I am <span>Arba'i Effendi</span>. Currently work as Project Manager, System Analyst and Software Engineer at Ciptadrasoft.
-            Most of my work are done using .NET Stack, but I focus on solving problems instead of just mastering tools, that's what i am sure an engineer should be.
-            But of course brilliant idea is not enough without the ability to execute.
+            Welcome! Let's get acquainted. I am <span>Arba'i Effendi</span>. Currently working as Project Manager, System Analyst and Software Engineer at Ciptadrasoft.
+            Most of my works are done using .NET Stack, but I focus on solving problems instead of just mastering tools, that's what i am sure an engineer should be.
+            But of course, brilliant idea is not enough without the ability to execute.
             With that awareness, whenever a new technology got into my radar, I pin it on My Board of To-Do.
             </p>
             <p>I am good at <span>Web Development</span> and <span>Desktop Development</span>. Below are some of my tech stack experience : <br/><br/>
