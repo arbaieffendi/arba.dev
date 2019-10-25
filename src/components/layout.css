@@ -48,7 +48,7 @@ section {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  min-height: calc(var(--vh,1vh) * 100);
+  min-height: calc(var(--vh,1vh) * 90);
   overflow-x: hidden !important;
   overflow-y: hidden !important;
   transition: all 0.2s ease-out 0s;

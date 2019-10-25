@@ -7,9 +7,11 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-import Header from "./header"
+import { useStaticQuery, graphql, Link } from "gatsby"
+// import Header from "./header"
 import "./layout.css"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faLink} from "@fortawesome/free-solid-svg-icons"
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
@@ -35,14 +37,21 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
           maxWidth: 960,
           padding: `0px 1.0875rem 1.45rem`,
-          paddingBottom: `0rem`,
+          paddingBottom: `2rem`,
           paddingTop: `5rem`,
         }}
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, {` `}
-          <a href="https://arbaieffendi.github.io">arbaieffendi</a>
+            <div style={{textAlign: 'center', position: "absolute center", bottom: 0}}>
+              Copyright © {new Date().getFullYear()}, {` `}
+              {/* <a href="https://arbaieffendi.github.io">Arba'i Effendi</a> */}
+              <Link style={{color: 'teal', fontSize: `1em`}} to="https://arbaieffendi.github.io">Arba'i Effendi</Link>
+              <br/>
+              <Link style={{color: 'teal', fontSize: `1em`}} to="/#about-me">About<FontAwesomeIcon icon={faLink} /> </Link>
+              <Link style={{color: 'teal', fontSize: `1em`}} to="/#contact-me">Contact<FontAwesomeIcon icon={faLink} /> </Link>
+              {/* <Link style={{color: 'teal', fontSize: `1em`}} to="/portfolio">Portfolio<FontAwesomeIcon icon={faLink}> </FontAwesomeIcon> </Link> */}
+            </div>
         </footer>
       </div>
     </div>
