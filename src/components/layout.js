@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
             <div style={{textAlign: 'center', position: "absolute center", bottom: 0}}>
               Copyright © {new Date().getFullYear()}, {` `}
               {/* <a href="https://arbaieffendi.github.io">Arba'i Effendi</a> */}
-              <Link style={{color: 'teal', fontSize: `1em`}} to="https://arbaieffendi.github.io">Arba'i Effendi</Link>
+              <Link style={{color: 'teal', fontSize: `1em`}} to="">Arba'i Effendi</Link>
               <br/>
               <Link style={{color: 'teal', fontSize: `1em`}} to="/#about-me">About<FontAwesomeIcon icon={faLink} /> </Link>
               <Link style={{color: 'teal', fontSize: `1em`}} to="/#contact-me">Contact<FontAwesomeIcon icon={faLink} /> </Link>

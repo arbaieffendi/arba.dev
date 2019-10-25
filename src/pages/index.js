@@ -15,12 +15,12 @@ const IndexPage = () => (
       <SEO title="Home" />
       <section id="intro" style={{marginBottom: `1.45rem`}}>
         <h1>
-          <span style={{fontSize: 2 + 'em'}}>Hello </span> <FontAwesomeIcon icon={faMugHot} style={{color: '#BF7B56', textShadow: `1px 1px 1px #ccc`, fontSize: `2em`}} /> <br/>
-          <span style={{fontSize: 1 + 'em', color:`black`}}>I'm </span>
-          <span style={{fontSize: 2 + 'em'}}>Arba'i Effendi</span> <br/>
-          <span style={{fontSize: 1 + 'em', color:`black`}}>A Software Engineer</span>
+          <span style={{fontSize: '2em'}}>Hello </span> <FontAwesomeIcon icon={faMugHot} style={{color: '#BF7B56', textShadow: `1px 1px 1px #ccc`, fontSize: `2em`}} /> <br/>
+          <span style={{fontSize: '1em', color:`black`}}>I'm </span>
+          <span style={{fontSize: '2em'}}>Arba'i Effendi</span> <br/>
+          <span style={{fontSize: '1em', color:`black`}}>A Software Engineer</span>
         </h1>
-          <span style={{fontSize: 0.75 + 'em', color:`dakgray`}}>Do you know ?</span> <br/>
+          <span style={{fontSize: '0.75em', color:`darkgray`}}>Do you know ?</span> <br/>
           <span><q>How you spend the first 30 minutes of your day, determine the quality of the next 23 and a half of hours</q> - Gamal Albinsaid <br/><br/></span>
         <div>
         {/* <ThemeToggler>
