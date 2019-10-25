@@ -50,19 +50,17 @@ const IndexPage = () => (
             But of course brilliant idea is not enough without the ability to execute.
             With that awareness, whenever a new technology got into my radar, i pin that on my board of to-taste.
             </p>
+            <p>I am good at <span>Web Development, Desktop Development</span></p>
             <p>
-            Oh, you might want to know, below are some of my tech stack experience :
-            <br/>
-            C#/VB, ASP.NET, Winform, MS SQL Server, SSIS, SSRS<br/>
+            And below are some of my tech stack experience :<br/>
+            <span>C#/VB, ASP.NET, Winform, MS SQL Server, SSIS, SSRS<br/>
             PHP, MySQL, XAMPP<br/>
             NodeJS, React, ES6 <br/>
-            Currently i put interest in Go Lang
+            Currently i put interest in Go Lang</span>
             </p>
-            And i am good at this : <br/>
-            Web Development, Desktop Development
             
-            My tool-belt : <br/>
-            Git, SVN, UML
+            <p>My Tool-Belt : <br/>
+            <span>Git, SVN, UML, Visual Studio, VS Code</span></p>
           </div>
           <div style={{textAlign: 'center', position: `absolute center`, bottom: 0}}>
             <Link style={{color: 'teal', fontSize: `2em`}} to="#contact-me"><FontAwesomeIcon icon={faChevronCircleDown} /></Link>
