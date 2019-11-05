@@ -46,22 +46,30 @@ const IndexPage = () => (
               <span style={{fontSize: 1 + 'em'}}>About Me</span> <br/>
             </h1>
             <p>
-            Welcome! Let's get acquainted. I am <span>Arba'i Effendi</span>. Currently working as Project Manager, System Analyst and Software Engineer at Ciptadrasoft.
-            Most of my works are done using .NET Stack, but I focus on solving problems instead of just mastering tools, that's what i am sure an engineer should be.
-            But of course, brilliant idea is not enough without the ability to execute.
-            With that awareness, whenever a new technology got into my radar, I pin it on My Board of To-Do.
+              Welcome! Let's get acquainted. I am <span>Arba'i Effendi</span>. Currently working as Project Manager, System Analyst and Software Engineer at Ciptadrasoft.
+              Most of my works are done using .NET Stack within Monolithic Architecture Pattern.</p>
+            <p>
+              I focus on solving problems instead of just mastering tools, that's what i am sure an engineer should be. 
+              But of course, brilliant idea is not enough without the ability to execute. 
+              With that awareness, whenever a new technology got into my rss reader, I pin it on My Board of To-Do, put a headset, play <a href="https://coffitivity.com/" style={{color: 'teal'}}>coffitivity</a>, and start to bring myself to the next level.
             </p>
-            <p>I am good at <span>Web Development</span> and <span>Desktop Development</span>. Below are some of my tech stack experience : <br/><br/>
-            <span>
-              <li>C#/VB, ASP.NET, Winform, MS SQL Server, Javascript, AJAX, SSIS, SSRS, IIS</li>
-              <li>PHP, MySQL, XAMPP</li>
-              <li>ReactJS, NodeJS</li>
-              <li>Currently i put interest in Go Lang</li>
-            </span>
+            <p>
+              By the way, I am good at <span>Web Development</span> and <span>Desktop Development</span>. Below are some of my tech stack experience : <br/><br/>
+              <span>
+                <li>.NET Framework, C#/VB, ASP.NET, ASP.NET WebAPI, Winform, SQL Server, Javascript, AJAX, SSIS, SSRS, IIS</li>
+                <li>PHP, CodeIgniter, MySQL/MariaDB, Apache (XAMPP)</li>
+                <li>Node Js, React Js, Express Js</li>
+              </span>
             </p>
             
             <p>My Tool-Belt : <br/>
-            <span>Git, SVN, UML, Visual Studio, VS Code</span></p>
+              <span>Git, SVN, UML, BPMN, Visual Studio, VS Code</span>
+            </p>
+
+            <p>Stuff I usually involved in : <br/>
+              <span>Software Project Planning, Requirement Gathering, Software Architecture Design, Database Design, Testing, Deployment</span>
+            </p>
+
           </div>
           <div style={{textAlign: 'center', position: `absolute center`, bottom: 0}}>
             <Link style={{color: 'teal', fontSize: `2em`}} to="#contact-me"><FontAwesomeIcon icon={faChevronCircleDown} /></Link>
@@ -73,12 +81,13 @@ const IndexPage = () => (
               <span style={{fontSize: 1 + 'em'}}>Get in touch</span> <br/>
             </h1>
             <div>
-              <p>Need to digitize your idea ? Let's talk </p>
+              <p>Wow, you read all of it ? Thanks :)</p>
+              <p>If your need to digitize your idea and looking for a collaboration ? Let's talk </p>
               <span style={{fontSize: 3 + 'em'}}><a href="mailto:arbaieffendi@gmail.com"><FontAwesomeIcon icon={faAt} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@arba"><FontAwesomeIcon icon={faMedium} /></a> </span>
+              <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/arbaieffendi"><FontAwesomeIcon icon={faLinkedin} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://github.com/arbaieffendi"><FontAwesomeIcon icon={faGithub} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/arbaieffendi"><FontAwesomeIcon icon={faGitlab} /></a> </span>
-              <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/arbaieffendi"><FontAwesomeIcon icon={faLinkedin} /></a> </span>
             </div>
         </div>
         <div style={{textAlign: 'center', position: `absolute`, right: 0, bottom: 0}}>
