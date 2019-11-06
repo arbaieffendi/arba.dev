@@ -58,7 +58,7 @@ const IndexPage = () => (
               <span>
                 <li>.NET Framework, C#/VB, ASP.NET, ASP.NET WebAPI, Winform, SQL Server, Javascript, AJAX, SSIS, SSRS, IIS</li>
                 <li>PHP, CodeIgniter, MySQL/MariaDB, Apache (XAMPP)</li>
-                <li>Node Js, React Js, Express Js</li>
+                <li>Node.js, React.js, Express.js</li>
               </span>
             </p>
             
@@ -81,7 +81,7 @@ const IndexPage = () => (
               <span style={{fontSize: 1 + 'em'}}>Get in touch</span> <br/>
             </h1>
             <div>
-              <p>Wow, you read all of it ? Thanks :)</p>
+              <p>Thanks to reach this far :)</p>
               <p>If your need to digitize your idea and looking for a collaboration ? Let's talk </p>
               <span style={{fontSize: 3 + 'em'}}><a href="mailto:arbaieffendi@gmail.com"><FontAwesomeIcon icon={faAt} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@arba"><FontAwesomeIcon icon={faMedium} /></a> </span>
