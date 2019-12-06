@@ -46,15 +46,19 @@ const IndexPage = () => (
               <span style={{fontSize: 1 + 'em'}}>About Me</span> <br/>
             </h1>
             <p>
-              Welcome! Let's get acquainted. I am <span>Arba'i Effendi</span>. Currently working as Project Manager, System Analyst and Software Engineer at Ciptadrasoft.
-              Most of my works are done using .NET Stack within Monolithic Architecture Pattern.</p>
-            <p>
-              I focus on solving problems instead of just mastering tools, that's what i am sure an engineer should be. 
-              But of course, brilliant idea is not enough without the ability to execute. 
-              With that awareness, whenever a new technology got into my rss reader, I pin it on My Board of To-Do, put a headset, play <a href="https://coffitivity.com/" style={{color: 'teal'}}>coffitivity</a>, and start to bring myself to the next level.
+              Currently working as Project Manager & Software Engineer at Ciptadrasoft, leading about 8 to 10 team member.
+              I play several roles from Project Manager, System Analyst, Solution Architect, and Software Engineer, depending on the project.
+              Being able to work in a technical area helps me better in offering the best solution to my client.
             </p>
             <p>
-              By the way, I am good at <span>Web Development</span> and <span>Desktop Development</span>. Below are some of my tech stack experience : <br/><br/>
+              I focus on solving problems instead of just mastering tools, that's what I am sure an engineer should be.
+              But of course, a brilliant idea is not enough without the ability to execute.
+              With that awareness, I push myself to always learn and try any relevant technology in order to leverage myself and giving better value to my customer.
+            </p>
+            <p>
+              By the way, I am good at <span>Web Development</span> and <span>Desktop Development</span>.
+              Most of my works are done in .NET Stack within Monolithic Architecture Pattern.
+              Oh yeah, below are some of my tech stack experience : <br/><br/>
               <span>
                 <li>.NET Framework, C#/VB, ASP.NET, ASP.NET WebAPI, Winform, SQL Server, Javascript, AJAX, SSIS, SSRS, IIS</li>
                 <li>PHP, CodeIgniter, MySQL/MariaDB, Apache (XAMPP)</li>
@@ -63,11 +67,7 @@ const IndexPage = () => (
             </p>
             
             <p>My Tool-Belt : <br/>
-              <span>Git, SVN, UML, BPMN, Visual Studio, VS Code</span>
-            </p>
-
-            <p>Stuff I usually involved in : <br/>
-              <span>Software Project Planning, Requirement Gathering, Software Architecture Design, Database Design, Testing, Deployment</span>
+              <span>Git, SVN, UML, BPMN</span>
             </p>
 
           </div>

@@ -1,11 +1,11 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://github.com/arbaieffendi/arbaieffendi.github.io/blob/master/src/images/Source%20Code-WF.png" width="60" />
+    <img alt="Gatsby" src="https://github.com/arbaieffendi/arba.dev/blob/master/src/images/Source%20Code-WF.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  arbaieffendi.netlify.com build with Gatsby, a static site generator
+  arba.dev build with Gatsby, a static site generator
 </h1>
 
 ## 🚀 Quick start
@@ -15,7 +15,7 @@
     Navigate into site’s directory and start it up.
 
     ```shell
-    cd arbaieffendi.github.io/
+    cd arba.dev/
     gatsby develop
     ```
 
