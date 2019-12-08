@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faMedium, faGitlab } from '@fortawesome/free-brands-svg-icons'
-import { faMugHot, faChevronCircleDown, faChevronCircleUp, faAt} from '@fortawesome/free-solid-svg-icons'
+import { faChevronCircleDown, faChevronCircleUp, faAt} from '@fortawesome/free-solid-svg-icons'
 
 // import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
@@ -15,11 +15,12 @@ const IndexPage = () => (
       <SEO title="Home" />
       <section id="intro" style={{marginBottom: `1.45rem`}}>
         <h1>
-          <span style={{fontSize: '2em'}}>Hello </span> <FontAwesomeIcon icon={faMugHot} style={{color: '#BF7B56', textShadow: `1px 1px 1px #ccc`, fontSize: `2em`}} /> <br/>
-          <span style={{fontSize: '1em', color:`black`}}>I'm </span>
-          <span style={{fontSize: '2em'}}>Arba'i Effendi</span> <br/>
-          <span style={{fontSize: '1em', color:`black`}}>A Software Engineer</span>
+          <span style={{fontSize: '2em'}} class="display-4">Hello </span>&#x2615;,<br/>
+          <span style={{fontSize: '1em', color:`black`}} class="display-4">I'm </span>
+          <span style={{fontSize: '2em'}} class="display-4">Arba'i Effendi</span> <br/>
+          <span style={{fontSize: '1em', color:`black`}} class="display-4">A Software Engineer</span>
         </h1>
+          <br/>
           <span style={{fontSize: '0.75em', color:`darkgray`}}>Do you know?</span> <br/>
           <span><q>How you spend the first 30 minutes of your day, determine the quality of the next 23 and a half of hours</q> - Gamal Albinsaid <br/><br/></span>
         <div>
@@ -57,10 +58,10 @@ const IndexPage = () => (
             </p>
             <p>
               By the way, I am good at <span>Web Development</span> and <span>Desktop Development</span>.
-              Most of my works are done in .NET Stack within Monolithic Architecture Pattern.
-              Oh yeah, below are some of my tech stack experience : <br/><br/>
+              Most of my works are done in .NET Stack within Monolithic Architecture Pattern. But as I explain, it just a matter of tools. I am open to any kind of tech.
+              Below are some of my tech stack experience : <br/><br/>
               <span>
-                <li>.NET Framework, C#/VB, ASP.NET, ASP.NET WebAPI, Winform, SQL Server, Javascript, AJAX, SSIS, SSRS, IIS</li>
+                <li>.NET Framework, C#/VB, ASP.NET Web Form, ASP.NET MVC, ASP.NET WebAPI, Windows Form, SQL Server, Javascript, AJAX, SSIS, SSRS, IIS</li>
                 <li>PHP, CodeIgniter, MySQL/MariaDB, Apache (XAMPP)</li>
                 <li>Node.js, React.js, Express.js</li>
               </span>

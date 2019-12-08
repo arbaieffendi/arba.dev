@@ -50,7 +50,7 @@ const Layout = ({ children }) => {
               <br/>
               <Link style={{color: 'teal', fontSize: `1em`}} to="/#about-me">About<FontAwesomeIcon icon={faLink} /> </Link>
               <Link style={{color: 'teal', fontSize: `1em`}} to="/#contact-me">Contact<FontAwesomeIcon icon={faLink} /> </Link>
-              {/* <Link style={{color: 'teal', fontSize: `1em`}} to="/portfolio">Portfolio<FontAwesomeIcon icon={faLink}> </FontAwesomeIcon> </Link> */}
+              <Link style={{color: 'teal', fontSize: `1em`}} to="/portfolio">Portfolio<FontAwesomeIcon icon={faLink}> </FontAwesomeIcon> </Link>
             </div>
         </footer>
       </div>

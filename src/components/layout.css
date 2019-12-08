@@ -666,3 +666,11 @@ span a {
 span a :hover {
   color : rgb(136, 88, 0);
 }
+
+.teal-color {
+  color: teal;
+}
+
+.font-sm {
+  font-size: 11px;
+}
