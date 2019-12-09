@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Arba's Page`,
-    description: `Welcome !`,
+    description: `Hi ! I'm Arba'i Effendi, a software engineer`,
     author: `@arbaieffendi`,
   },
   plugins: [
@@ -21,8 +21,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#008080`,
+        theme_color: `#008080`,
         display: `minimal-ui`,
         icon: `src/images/Source Code-WF.png`, // This path is relative to the root of the site.
       },
