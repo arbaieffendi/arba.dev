@@ -83,7 +83,7 @@ const IndexPage = () => (
             </h1>
             <div>
               <p>Thanks to reach this far :)</p>
-              <p>If your need to digitize your idea and looking for a collaboration ? Let's talk </p>
+              <p>If you need to digitize your idea and looking for a collaboration ? Let's talk</p>
               <span style={{fontSize: 3 + 'em'}}><a href="mailto:arbaieffendi@gmail.com"><FontAwesomeIcon icon={faAt} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@arba"><FontAwesomeIcon icon={faMedium} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/arbaieffendi"><FontAwesomeIcon icon={faLinkedin} /></a> </span>
