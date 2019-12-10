@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faMedium, faGitlab } from '@fortawesome/free-brands-svg-icons'
-import { faChevronCircleDown, faChevronCircleUp} from '@fortawesome/free-solid-svg-icons'
+import { faChevronCircleDown, faChevronCircleUp, faHandshake} from '@fortawesome/free-solid-svg-icons'
 
 // import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
@@ -79,12 +79,11 @@ const IndexPage = () => (
       <section id="contact-me">
         <div style={{ maxWidth: `960px`, marginBottom: `1.45rem`, marginTop:`1.45rem`}}>
             <h1>
-              <span style={{fontSize: 1 + 'em'}}>Get in touch</span> <br/>
+              <span style={{fontSize: 1 + 'em'}}>Let's talk</span> <br/>
             </h1>
             <div>
-              <p>Thanks to reach this far :)</p>
-              <p>If you need to digitize your idea and looking for a collaboration ? Let's talk ! <span><a href="mailto:arbaieffendi@gmail.com">arbaieffendi@gmail.com</a></span> </p>
-              You could also find me at : <br/>
+              <p>Thanks to reach this far :) If you need to digitize your idea and looking for a collaboration ?
+              You could email me at <span><a href="mailto:arbaieffendi@gmail.com">arbaieffendi@gmail.com</a></span> </p> or find me at <br/>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@arba"><FontAwesomeIcon icon={faMedium} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/arbaieffendi"><FontAwesomeIcon icon={faLinkedin} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://github.com/arbaieffendi"><FontAwesomeIcon icon={faGithub} /></a> </span>
