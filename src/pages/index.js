@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faMedium, faGitlab } from '@fortawesome/free-brands-svg-icons'
-import { faChevronCircleDown, faChevronCircleUp, faAt} from '@fortawesome/free-solid-svg-icons'
+import { faChevronCircleDown, faChevronCircleUp} from '@fortawesome/free-solid-svg-icons'
 
 // import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
@@ -83,8 +83,8 @@ const IndexPage = () => (
             </h1>
             <div>
               <p>Thanks to reach this far :)</p>
-              <p>If you need to digitize your idea and looking for a collaboration ? Let's talk</p>
-              <span style={{fontSize: 3 + 'em'}}><a href="mailto:arbaieffendi@gmail.com"><FontAwesomeIcon icon={faAt} /></a> </span>
+              <p>If you need to digitize your idea and looking for a collaboration ? Let's talk ! <span><a href="mailto:arbaieffendi@gmail.com">arbaieffendi@gmail.com</a></span> </p>
+              You could also find me at : <br/>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@arba"><FontAwesomeIcon icon={faMedium} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/arbaieffendi"><FontAwesomeIcon icon={faLinkedin} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://github.com/arbaieffendi"><FontAwesomeIcon icon={faGithub} /></a> </span>
