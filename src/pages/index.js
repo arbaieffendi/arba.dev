@@ -58,19 +58,20 @@ const IndexPage = () => (
             </p>
             <p>
               By the way, I am good at <span>Web Development</span> and <span>Desktop Development</span>.
-              Most of my works are done in .NET Stack within Monolithic Architecture Pattern. But as I explain, it just a matter of tools. I am open to any kind of tech.
+              Most of my works are done in .NET Stack within Monolithic Architecture Pattern. But as I explain earlier, it just a matter of tools. I am open to any kind of tech.
               Below are some of my tech stack experience : <br/><br/>
               <span>
                 <li>.NET Framework, C#/VB, ASP.NET Web Form, ASP.NET MVC, ASP.NET WebAPI, Windows Form, SQL Server, Javascript, AJAX, SSIS, SSRS, IIS</li>
                 <li>PHP, CodeIgniter, MySQL/MariaDB, Apache (XAMPP)</li>
                 <li>Node.js, React.js, Express.js</li>
+                <li>Flutter, Dart</li>
               </span>
             </p>
             
             <p>My Tool-Belt : <br/>
               <span>Git, SVN, UML, BPMN</span>
             </p>
-
+            
           </div>
           <div style={{textAlign: 'center', position: `absolute center`, bottom: 0}}>
             <Link style={{color: 'teal', fontSize: `2em`}} to="#contact-me"><FontAwesomeIcon icon={faChevronCircleDown} /></Link>
