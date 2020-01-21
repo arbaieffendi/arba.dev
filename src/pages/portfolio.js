@@ -17,8 +17,8 @@ const PortfolioPage = () => (
         <div class="card" style={{width: "auto;"}}>
           <div class="card-body">
             <h5 class="card-title teal-color">E-Access RTW</h5>
-            <p class="card-text">Rail Train Wagon Delivery Management System. I work with my partner Septian Dwi this time. <span>&copy;2019</span></p>
-            <p class="card-text text-muted font-sm">ASP.NET MVC, .NET Framework v4.7.2, SQL Server 2016 (on AWS RDS), IIS 8 (on AWS EC2), Migradoc Reporting Library</p>
+            <p class="card-text">Rail Train Wagon Delivery Management System. I work with my partner Septian Dwi this time. <span>2019</span></p>
+            <p class="card-text text-muted font-sm">C#, ASP.NET MVC, .NET Framework v4.7.2, SQL Server 2016 (on AWS RDS), IIS 8 (on AWS EC2), Migradoc Reporting Library</p>
           </div>
         </div>
       </div>
@@ -44,8 +44,26 @@ const PortfolioPage = () => (
         <div class="card" style={{width: "auto;"}}>
           <div class="card-body">
             <h5 class="card-title teal-color">E-Housing</h5>
-            <p class="card-text">E-Housing Management System. I work with my partner Agung, Reni, and Prihandini. <span>&copy;2015</span> </p>
+            <p class="card-text">E-Housing Management System. I work with my partner Agung, Reni, and Prihandini. <span>2015</span> </p>
             <p class="card-text text-muted font-sm">PHP, CodeIgniter, Apache HTTP Server, MySQL</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 order-md2 mb-4">
+        <div class="card" style={{width: "auto;"}}>
+          <div class="card-body">
+            <h5 class="card-title teal-color">JAG (also called DMTM)</h5>
+            <p class="card-text">Health & Life Insurance Core System. I have completed around 20 enhancement projects in 3 well-known clients as several role from Software Engineer, System Analyst and Project Manager <span>2013 - 2020</span> </p>
+            <p class="card-text text-muted font-sm">C#, ASP.NET, .NET Framework, MS SQL Server, IIS, SSIS, SSRS</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 order-md2 mb-4">
+        <div class="card" style={{width: "auto;"}}>
+          <div class="card-body">
+            <h5 class="card-title teal-color">TBSS (also called AXITS)</h5>
+            <p class="card-text">Telesales Business Support System. I have completed > 5 enhancement projects in 2 well-known clients as several role from Software Engineer, System Analyst and Project Manager <span>2013 - 2020</span> </p>
+            <p class="card-text text-muted font-sm">VB6, VB.NET, Windows Form, MS SQL Server, ASP.NET Web API, PureCloud API SDK</p>
           </div>
         </div>
       </div>
