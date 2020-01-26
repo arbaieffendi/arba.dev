@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faMedium, faGitlab } from '@fortawesome/free-brands-svg-icons'
-import { faChevronCircleDown, faChevronCircleUp, faHandshake} from '@fortawesome/free-solid-svg-icons'
+import { faChevronCircleDown, faChevronCircleUp} from '@fortawesome/free-solid-svg-icons'
 
 // import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
@@ -46,17 +46,17 @@ const IndexPage = () => (
             <h1>
               <span style={{fontSize: 1 + 'em'}}>About Me</span> <br/>
             </h1>
-            <p>
+            <p style={{textAlign: `justify`}}>
               Currently working as Project Manager & Software Engineer at Ciptadrasoft, leading about 8 to 10 team member.
               I play several roles from Project Manager, System Analyst, Solution Architect, and Software Engineer, depending on the project.
               Being able to work in a technical area helps me better in offering the best solution to my client.
             </p>
-            <p>
+            <p style={{textAlign: `justify`}}>
               I focus on solving problems instead of just mastering tools, that's what I am sure an engineer should be.
               But of course, a brilliant idea is not enough without the ability to execute.
               With that awareness, I push myself to always learn and try any relevant technology in order to leverage myself and giving better value to my customer.
             </p>
-            <p>
+            <p style={{textAlign: `justify`}}>
               By the way, I am good at <span>Web Development</span> and <span>Desktop Development</span>.
               Most of my works are done in .NET Stack within Monolithic Architecture Pattern. But as I explain earlier, it just a matter of tools. I am open to any kind of tech.
               Below are some of my tech stack experience : <br/><br/>
@@ -83,8 +83,11 @@ const IndexPage = () => (
               <span style={{fontSize: 1 + 'em'}}>Let's talk</span> <br/>
             </h1>
             <div>
-              <p>Thanks to reach this far :) If you need to digitize your idea and looking for a collaboration ?
-              You could email me at <span><a href="mailto:arbaieffendi@gmail.com">arbaieffendi@gmail.com</a></span> </p> or find me at <br/>
+              <p style={{textAlign: `justify`}}>
+                Thanks to reach this far :) If you need to digitize your idea and looking for a collaboration ?
+                You could email me at <span><a href="mailto:arbaieffendi@gmail.com">arbaieffendi@gmail.com</a></span>
+              </p>
+              or find me at <br/>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@arba"><FontAwesomeIcon icon={faMedium} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/arbaieffendi"><FontAwesomeIcon icon={faLinkedin} /></a> </span>
               <span style={{fontSize: 3 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://github.com/arbaieffendi"><FontAwesomeIcon icon={faGithub} /></a> </span>

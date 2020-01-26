@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-    </header>
+  </header>
 )
 
 Header.propTypes = {

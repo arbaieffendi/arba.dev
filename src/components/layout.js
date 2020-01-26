@@ -12,6 +12,7 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import "./layout.css"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faLink} from "@fortawesome/free-solid-svg-icons"
+import { faGithub, faLinkedin, faMedium, faGitlab } from '@fortawesome/free-brands-svg-icons'
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
@@ -51,6 +52,12 @@ const Layout = ({ children }) => {
               <Link style={{color: 'teal', fontSize: `1em`}} to="/#about-me">About<FontAwesomeIcon icon={faLink} /> </Link>
               <Link style={{color: 'teal', fontSize: `1em`}} to="/#contact-me">Contact<FontAwesomeIcon icon={faLink} /> </Link>
               <Link style={{color: 'teal', fontSize: `1em`}} to="/portfolio">Portfolio<FontAwesomeIcon icon={faLink}> </FontAwesomeIcon> </Link>
+            </div>
+            <div style={{textAlign: 'center', position: "absolute center", bottom: 0}}>
+              <span style={{fontSize: 2 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@arba"><FontAwesomeIcon icon={faMedium} /></a> </span>
+              <span style={{fontSize: 2 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/arbaieffendi"><FontAwesomeIcon icon={faLinkedin} /></a> </span>
+              <span style={{fontSize: 2 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://github.com/arbaieffendi"><FontAwesomeIcon icon={faGithub} /></a> </span>
+              <span style={{fontSize: 2 + 'em'}}><a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/arbaieffendi"><FontAwesomeIcon icon={faGitlab} /></a> </span>
             </div>
         </footer>
       </div>
