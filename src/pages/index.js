@@ -49,22 +49,24 @@ const IndexPage = () => (
             <p style={{textAlign: `justify`}}>
               Currently working as Project Manager & Software Engineer at Ciptadrasoft, leading about 8 to 10 team member.
               I play several roles from Project Manager, System Analyst, Solution Architect, and Software Engineer, depending on the project.
-              Being able to work in a technical area helps me better in offering the best solution to my client.
+              Being able to work in a technical area helps me better in offering the best solution.
             </p>
             <p style={{textAlign: `justify`}}>
               I focus on solving problems instead of just mastering tools, that's what I am sure an engineer should be.
               But of course, a brilliant idea is not enough without the ability to execute.
-              With that awareness, I push myself to always learn and try any relevant technology in order to leverage myself and giving better value to my customer.
+              With that awareness, I push myself to always learn and try any relevant technology in order to leverage myself and giving better value to my client.
             </p>
             <p style={{textAlign: `justify`}}>
-              By the way, I am good at <span>Web Development</span> and <span>Desktop Development</span>.
+              By the way, I am good at <span>Web Development</span> and <span>Desktop Development</span>. Lately I also work on a solution that require Cross Platform Mobile Development.
               Most of my works are done in .NET Stack within Monolithic Architecture Pattern. But as I explain earlier, it just a matter of tools. I am open to any kind of tech.
               Below are some of my tech stack experience : <br/><br/>
               <span>
-                <li>.NET Framework, C#/VB, ASP.NET Web Form, ASP.NET MVC, ASP.NET WebAPI, Windows Form, SQL Server, Javascript, AJAX, SSIS, SSRS, IIS</li>
+                <li>C, C++ <span style={{fontSize: '0.75em', color:`darkgray`}}>(first programming language i learn at college years ago 😄)</span></li>
+                <li>C#, .NET Framework, ASP.NET Web Form, ASP.NET MVC, ASP.NET WebAPI, Windows Form, SQL Server, Javascript, AJAX, SSIS, SSRS, IIS</li>
+                <li>VB6/VB.NET, .NET Framework, Windows Form, SQL Server</li>
                 <li>PHP, CodeIgniter, MySQL/MariaDB, Apache (XAMPP)</li>
                 <li>Node.js, React.js, Express.js</li>
-                <li>Flutter, Dart</li>
+                <li>Go, Flutter(Dart)</li>
               </span>
             </p>
             
