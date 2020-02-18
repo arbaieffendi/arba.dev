@@ -13,6 +13,13 @@ import "./layout.css"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faLink} from "@fortawesome/free-solid-svg-icons"
 import { faGithub, faLinkedin, faMedium, faGitlab } from '@fortawesome/free-brands-svg-icons'
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+    gtmId: 'UA-158676167-1'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
