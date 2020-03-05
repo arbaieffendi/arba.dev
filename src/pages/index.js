@@ -15,10 +15,10 @@ const IndexPage = () => (
       <SEO title="Home" />
       <section id="intro" style={{marginBottom: `1.45rem`}}>
         <h1>
-          <span style={{fontSize: '2em'}} class="display-4">Hello </span>&#x2615;,<br/>
+          <span style={{fontSize: '2em'}} class="display-4">Hello,</span><br/>
           <span style={{fontSize: '1em', color:`black`}} class="display-4">I'm </span>
           <span style={{fontSize: '2em'}} class="display-4">Arba'i Effendi</span> <br/>
-          <span style={{fontSize: '1em', color:`black`}} class="display-4">A Software Engineer</span>
+          <span style={{fontSize: '1em', color:`black`}} class="display-4">A Software Engineer</span> &#x2615;
         </h1>
           <br/>
           <span style={{fontSize: '0.75em', color:`darkgray`}}>Do you know?</span> <br/>
@@ -60,14 +60,16 @@ const IndexPage = () => (
               By the way, I am good at <span>Web Development</span> and <span>Desktop Development</span>. Lately I also work on a solution that require Cross Platform Mobile Development.
               Most of my works are done in .NET Stack within Monolithic Architecture Pattern. But as I explain earlier, it just a matter of tools. I am open to any kind of tech.
               Below are some of my tech stack experience : <br/><br/>
-              <span>
-                <li>C, C++ <span style={{fontSize: '0.75em', color:`darkgray`}}>(first programming language i learn at college years ago 😄)</span></li>
-                <li>C#, .NET Framework, ASP.NET Web Form, ASP.NET MVC, ASP.NET WebAPI, Windows Form, SQL Server, Javascript, AJAX, SSIS, SSRS, IIS</li>
-                <li>VB6/VB.NET, .NET Framework, Windows Form, SQL Server</li>
-                <li>PHP, CodeIgniter, MySQL/MariaDB, Apache (XAMPP)</li>
-                <li>Node.js, React.js, Express.js</li>
-                <li>Go, Flutter(Dart)</li>
-              </span>
+              <ul>
+                <span>
+                  <li><div class="chip">C</div> <div class="chip">C++</div> <span style={{fontSize: '0.75em', color:`darkgray`}}>(first programming language i learn at college years ago 😄)</span></li>
+                  <li><div class="chip">C#</div> <div class="chip">.NET Framework</div> <div class="chip">ASP.NET Web Form</div> <div class="chip">ASP.NET MVC</div> <div class="chip">ASP.NET WebAPI</div> <div class="chip">SQL Server</div> <div class="chip">Javascript</div> <div class="chip">AJAX</div> <div class="chip">SSIS</div> <div class="chip">SSRS</div> <div class="chip">IIS</div></li>
+                  <li><div class="chip">VB6/VB.NET</div> <div class="chip">.NET Framework</div> <div class="chip">Windows Form</div> <div class="chip">SQL Server</div></li>
+                  <li><div class="chip">PHP</div> <div class="chip">CodeIgniter</div> <div class="chip">MySQL/MariaDB</div> <div class="chip">Apache (XAMPP)</div></li>
+                  <li><div class="chip">Node.js</div> <div class="chip">React.js</div> <div class="chip">Express.js</div></li>
+                  <li><div class="chip">Go</div> <div class="chip">Flutter(Dart)</div></li>
+                </span>
+              </ul>
             </p>
             
             <p>My Tool-Belt : <br/>

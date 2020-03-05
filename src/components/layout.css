@@ -681,3 +681,15 @@ span a :hover {
 .font-sm {
   font-size: 11px;
 }
+
+.chip {
+  display: inline-block;
+  padding: 0 10px;
+  height: 25px;
+  font-size: 16px;
+  /* line-height: 50px; */
+  border-radius: 25px;
+  background-color: teal;
+  opacity: 75%;
+  color: white;
+}
